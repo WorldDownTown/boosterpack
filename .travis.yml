@@ -1,0 +1,4 @@
+language: objective-c
+xcode_project: BoosterPack.xcodeproj 
+xcode_scheme: BoosterPack
+osx_image: xcode7.1
