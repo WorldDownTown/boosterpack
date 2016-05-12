@@ -10,6 +10,5 @@ import Foundation
 
 func << <Element> (inout lhs: Array<Element>, rhs: Element) -> Array<Element> {
     lhs.append(rhs)
-    
     return lhs
 }

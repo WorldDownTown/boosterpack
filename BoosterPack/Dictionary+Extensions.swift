@@ -16,16 +16,16 @@ extension Dictionary {
     }
 }
 
-func + <Key, Value> (var lhs: Dictionary<Key, Value>, rhs: Dictionary<Key, Value>) -> Dictionary<Key, Value> {
-    
+func + <Key, Value> (lhs: Dictionary<Key, Value>, rhs: Dictionary<Key, Value>) -> Dictionary<Key, Value> {
+    var lhs = lhs
     for (key, value) in rhs {
         lhs[key] = value
     }
-    
     return lhs
 }
 
-func - <Key, Value> (var lhs: Dictionary<Key, Value>, rhs: Dictionary<Key, Value>) -> Dictionary<Key, Value> {
+func - <Key, Value> (lhs: Dictionary<Key, Value>, rhs: Dictionary<Key, Value>) -> Dictionary<Key, Value> {
+    var lhs = lhs 
     for key in rhs.keys {
         lhs.removeValueForKey(key)
     }
@@ -34,15 +34,11 @@ func - <Key, Value> (var lhs: Dictionary<Key, Value>, rhs: Dictionary<Key, Value
 }
 
 func -= <Key, Value> (inout lhs: Dictionary<Key, Value>, rhs: Dictionary<Key, Value>) -> Dictionary<Key, Value> {
-    
     lhs = lhs - rhs
-    
     return lhs
 }
 
 func += <Key, Value> (inout lhs: Dictionary<Key, Value>, rhs: Dictionary<Key, Value>) -> Dictionary<Key, Value> {
-    
     lhs = lhs + rhs
-    
     return lhs
 }

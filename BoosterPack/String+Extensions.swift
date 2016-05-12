@@ -27,5 +27,3 @@ func =~ (lhs: String, rhs: String) -> Bool {
         return false
     }
 }
-
-
