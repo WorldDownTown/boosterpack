@@ -22,6 +22,38 @@ extension String {
 }
 
 
+// MARK: - Hiragana / Katakana
+
+extension String {
+
+    /// Hiragana -> Katakana
+    var katakana: String {
+        return unicodeScalars.reduce("") { (str, c) in
+            var str = str
+            if c.value >= 0x3041 && c.value <= 0x3096 {
+                str.append(UnicodeScalar(c.value + 96))
+            } else {
+                str.append(c)
+            }
+            return str
+        }
+    }
+
+    /// Katakana -> Hiragana
+    var hiragana: String {
+        return unicodeScalars.reduce("") { (str, c) in
+            var str = str
+            if c.value >= 0x30A1 && c.value <= 0x30F6 {
+                str.append(UnicodeScalar(c.value - 96))
+            } else {
+                str.append(c)
+            }
+            return str
+        }
+    }
+}
+
+
 // MARK: - Regex Syntax
 
 extension String {

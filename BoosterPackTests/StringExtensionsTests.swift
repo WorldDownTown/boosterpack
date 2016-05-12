@@ -52,4 +52,16 @@ class StringExtensionsTests: XCTestCase {
 
         XCTAssert(found == true, "Word boundries are failing to register.")
     }
+
+    func testHiraganaToKatakana() {
+        let word = "こんにちは"
+
+        XCTAssert((word.katakana == "コンニチハ"), "Converting word to Katakana is failing.")
+    }
+
+    func testKatakanaToHiragana() {
+        let word = "コンニチハ"
+
+        XCTAssert((word.hiragana == "こんにちは"), "Converting word to Hiragana is failing.")
+    }
 }
