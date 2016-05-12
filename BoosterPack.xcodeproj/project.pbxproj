@@ -7,25 +7,26 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		4E6CEF011C05956A0073D6F4 /* String+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ECD7DC51BF741010055472D /* String+Extensions.swift */; };
-		4E6CEF021C05956A0073D6F4 /* Array+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ECD7DCB1BF794950055472D /* Array+Extensions.swift */; };
-		4E6CEF031C05956A0073D6F4 /* Dictionary+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ECD7DC31BF72F610055472D /* Dictionary+Extensions.swift */; };
+		4E6CEF011C05956A0073D6F4 /* String+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ECD7DC51BF741010055472D /* String+Extension.swift */; };
+		4E6CEF021C05956A0073D6F4 /* Array+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ECD7DCB1BF794950055472D /* Array+Extension.swift */; };
+		4E6CEF031C05956A0073D6F4 /* Dictionary+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ECD7DC31BF72F610055472D /* Dictionary+Extension.swift */; };
 		4E6CEF061C05956A0073D6F4 /* BoosterPack.h in Headers */ = {isa = PBXBuildFile; fileRef = 4ECD7DAC1BF72F2D0055472D /* BoosterPack.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4E6CEF0F1C0595720073D6F4 /* String+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ECD7DC51BF741010055472D /* String+Extensions.swift */; };
-		4E6CEF101C0595720073D6F4 /* Array+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ECD7DCB1BF794950055472D /* Array+Extensions.swift */; };
-		4E6CEF111C0595720073D6F4 /* Dictionary+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ECD7DC31BF72F610055472D /* Dictionary+Extensions.swift */; };
+		4E6CEF0F1C0595720073D6F4 /* String+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ECD7DC51BF741010055472D /* String+Extension.swift */; };
+		4E6CEF101C0595720073D6F4 /* Array+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ECD7DCB1BF794950055472D /* Array+Extension.swift */; };
+		4E6CEF111C0595720073D6F4 /* Dictionary+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ECD7DC31BF72F610055472D /* Dictionary+Extension.swift */; };
 		4E6CEF141C0595720073D6F4 /* BoosterPack.h in Headers */ = {isa = PBXBuildFile; fileRef = 4ECD7DAC1BF72F2D0055472D /* BoosterPack.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4E6CEF1D1C0595750073D6F4 /* String+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ECD7DC51BF741010055472D /* String+Extensions.swift */; };
-		4E6CEF1E1C0595750073D6F4 /* Array+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ECD7DCB1BF794950055472D /* Array+Extensions.swift */; };
-		4E6CEF1F1C0595750073D6F4 /* Dictionary+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ECD7DC31BF72F610055472D /* Dictionary+Extensions.swift */; };
+		4E6CEF1D1C0595750073D6F4 /* String+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ECD7DC51BF741010055472D /* String+Extension.swift */; };
+		4E6CEF1E1C0595750073D6F4 /* Array+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ECD7DCB1BF794950055472D /* Array+Extension.swift */; };
+		4E6CEF1F1C0595750073D6F4 /* Dictionary+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ECD7DC31BF72F610055472D /* Dictionary+Extension.swift */; };
 		4E6CEF221C0595750073D6F4 /* BoosterPack.h in Headers */ = {isa = PBXBuildFile; fileRef = 4ECD7DAC1BF72F2D0055472D /* BoosterPack.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4E9CB6621CE47A5200879CC1 /* NSURL+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E9CB6611CE47A5200879CC1 /* NSURL+Extension.swift */; };
 		4ECD7DAD1BF72F2D0055472D /* BoosterPack.h in Headers */ = {isa = PBXBuildFile; fileRef = 4ECD7DAC1BF72F2D0055472D /* BoosterPack.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4ECD7DB41BF72F2D0055472D /* BoosterPack_Mac.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4ECD7DA91BF72F2D0055472D /* BoosterPack_Mac.framework */; };
-		4ECD7DC41BF72F610055472D /* Dictionary+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ECD7DC31BF72F610055472D /* Dictionary+Extensions.swift */; };
-		4ECD7DC61BF741010055472D /* String+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ECD7DC51BF741010055472D /* String+Extensions.swift */; };
+		4ECD7DC41BF72F610055472D /* Dictionary+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ECD7DC31BF72F610055472D /* Dictionary+Extension.swift */; };
+		4ECD7DC61BF741010055472D /* String+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ECD7DC51BF741010055472D /* String+Extension.swift */; };
 		4ECD7DC81BF76E770055472D /* DictionaryExtensionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ECD7DC71BF76E770055472D /* DictionaryExtensionTests.swift */; };
 		4ECD7DCA1BF7733C0055472D /* StringExtensionsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ECD7DC91BF7733C0055472D /* StringExtensionsTests.swift */; };
-		4ECD7DCC1BF794950055472D /* Array+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ECD7DCB1BF794950055472D /* Array+Extensions.swift */; };
+		4ECD7DCC1BF794950055472D /* Array+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ECD7DCB1BF794950055472D /* Array+Extension.swift */; };
 		4ECD7DCF1BF799470055472D /* ArrayExtensionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ECD7DCE1BF799470055472D /* ArrayExtensionTests.swift */; };
 /* End PBXBuildFile section */
 
@@ -43,16 +44,17 @@
 		4E6CEF0B1C05956A0073D6F4 /* BoosterPack_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = BoosterPack_iOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4E6CEF191C0595720073D6F4 /* BoosterPack_tvOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = BoosterPack_tvOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4E6CEF271C0595750073D6F4 /* BoosterPack_watchOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = BoosterPack_watchOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4E9CB6611CE47A5200879CC1 /* NSURL+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSURL+Extension.swift"; sourceTree = "<group>"; };
 		4ECD7DA91BF72F2D0055472D /* BoosterPack_Mac.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = BoosterPack_Mac.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4ECD7DAC1BF72F2D0055472D /* BoosterPack.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BoosterPack.h; sourceTree = "<group>"; };
 		4ECD7DAE1BF72F2D0055472D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4ECD7DB31BF72F2D0055472D /* BoosterPackTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BoosterPackTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4ECD7DBA1BF72F2D0055472D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		4ECD7DC31BF72F610055472D /* Dictionary+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Dictionary+Extensions.swift"; sourceTree = "<group>"; };
-		4ECD7DC51BF741010055472D /* String+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+Extensions.swift"; sourceTree = "<group>"; };
+		4ECD7DC31BF72F610055472D /* Dictionary+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Dictionary+Extension.swift"; sourceTree = "<group>"; };
+		4ECD7DC51BF741010055472D /* String+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+Extension.swift"; sourceTree = "<group>"; };
 		4ECD7DC71BF76E770055472D /* DictionaryExtensionTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DictionaryExtensionTests.swift; sourceTree = "<group>"; };
 		4ECD7DC91BF7733C0055472D /* StringExtensionsTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StringExtensionsTests.swift; sourceTree = "<group>"; };
-		4ECD7DCB1BF794950055472D /* Array+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Array+Extensions.swift"; sourceTree = "<group>"; };
+		4ECD7DCB1BF794950055472D /* Array+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Array+Extension.swift"; sourceTree = "<group>"; };
 		4ECD7DCE1BF799470055472D /* ArrayExtensionTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArrayExtensionTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -122,9 +124,10 @@
 			children = (
 				4ECD7DAC1BF72F2D0055472D /* BoosterPack.h */,
 				4ECD7DAE1BF72F2D0055472D /* Info.plist */,
-				4ECD7DC31BF72F610055472D /* Dictionary+Extensions.swift */,
-				4ECD7DC51BF741010055472D /* String+Extensions.swift */,
-				4ECD7DCB1BF794950055472D /* Array+Extensions.swift */,
+				4ECD7DC31BF72F610055472D /* Dictionary+Extension.swift */,
+				4ECD7DC51BF741010055472D /* String+Extension.swift */,
+				4ECD7DCB1BF794950055472D /* Array+Extension.swift */,
+				4E9CB6611CE47A5200879CC1 /* NSURL+Extension.swift */,
 			);
 			path = BoosterPack;
 			sourceTree = "<group>";
@@ -350,9 +353,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4E6CEF011C05956A0073D6F4 /* String+Extensions.swift in Sources */,
-				4E6CEF021C05956A0073D6F4 /* Array+Extensions.swift in Sources */,
-				4E6CEF031C05956A0073D6F4 /* Dictionary+Extensions.swift in Sources */,
+				4E6CEF011C05956A0073D6F4 /* String+Extension.swift in Sources */,
+				4E6CEF021C05956A0073D6F4 /* Array+Extension.swift in Sources */,
+				4E6CEF031C05956A0073D6F4 /* Dictionary+Extension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -360,9 +363,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4E6CEF0F1C0595720073D6F4 /* String+Extensions.swift in Sources */,
-				4E6CEF101C0595720073D6F4 /* Array+Extensions.swift in Sources */,
-				4E6CEF111C0595720073D6F4 /* Dictionary+Extensions.swift in Sources */,
+				4E6CEF0F1C0595720073D6F4 /* String+Extension.swift in Sources */,
+				4E6CEF101C0595720073D6F4 /* Array+Extension.swift in Sources */,
+				4E6CEF111C0595720073D6F4 /* Dictionary+Extension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -370,9 +373,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4E6CEF1D1C0595750073D6F4 /* String+Extensions.swift in Sources */,
-				4E6CEF1E1C0595750073D6F4 /* Array+Extensions.swift in Sources */,
-				4E6CEF1F1C0595750073D6F4 /* Dictionary+Extensions.swift in Sources */,
+				4E6CEF1D1C0595750073D6F4 /* String+Extension.swift in Sources */,
+				4E6CEF1E1C0595750073D6F4 /* Array+Extension.swift in Sources */,
+				4E6CEF1F1C0595750073D6F4 /* Dictionary+Extension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -380,9 +383,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4ECD7DC61BF741010055472D /* String+Extensions.swift in Sources */,
-				4ECD7DCC1BF794950055472D /* Array+Extensions.swift in Sources */,
-				4ECD7DC41BF72F610055472D /* Dictionary+Extensions.swift in Sources */,
+				4E9CB6621CE47A5200879CC1 /* NSURL+Extension.swift in Sources */,
+				4ECD7DC61BF741010055472D /* String+Extension.swift in Sources */,
+				4ECD7DCC1BF794950055472D /* Array+Extension.swift in Sources */,
+				4ECD7DC41BF72F610055472D /* Dictionary+Extension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
